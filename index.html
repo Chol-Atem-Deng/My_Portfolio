@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio_Website</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/1311e2b2a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Chol A.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Programmer</p>
+                <h1>Hi, I'm <span>Chol</span><br>from S.Sudan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image1.jpg" class="img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm  an experienced graphic designer with over 3 years of experience specializing in logo design. Besides hosting several graphic design seminars, I creates relevant and original logos that enhance a company's brand recognition. My unique experience and creative mindset help companies remain current in a consistently evolving market.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="Opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="Opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="Opentab('education')">Education</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="skills">
+                        <ul>
+                            <li><span>Computer Programming</span><br>Designing Web</li>
+                            <li><span>Graphic Designing</span><br>Editting images</li>
+                            <li><span>Mentorship</span><br>Remote Working</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>June, 2023 - Current</span><br>Programmer training at SIR Center</li>
+                            <li><span>Sept, 2023 - Current</span><br>Designer training at Faulu Center</li>
+                            <li><span>Sept, 2023 - Current</span><br>Mentorship at Na'amal Projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Certificate in Coding</li>
+                            <li><span>2023</span><br>Design Training under Raspbery Pi</li>
+                            <li><span>2023</span><br>Certificate in Mentorship Program</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>I offered analytics Interpretation and Reporting I've designed the site with web analytics code in place and the site usage is being tracked.
+                    Competition Monitoring Regardless of the industry your client is in, there are competitors online.
+                    HTML E-mail Template Design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Computer Programming</h2>
+                    <p>I offered analytics Interpretation and Reporting I've designed the site with web analytics code in place and the site usage is being tracked.
+                    Competition Monitoring Regardless of the industry your client is in, there are competitors online.
+                    HTML E-mail Template Design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>I offered analytics Interpretation and Reporting I've designed the site with web analytics code in place and the site usage is being tracked.
+                    Competition Monitoring Regardless of the industry your client is in, there are competitors online.
+                    HTML E-mail Template Design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://th.bing.com/th/id/R.d644c428db2785c1967b60ee99446b33?rik=UIs86GIq0T8m4w&pid=ImgRaw&r=0">
+                    <div class="layer">
+                        <h3>Computer Programmer</h3>
+                        <p>Coding is a great way to express my creativity. It Can be used to automate tasks that would otherwise be tedious or time-consuming. It also helps me learn about organization and planning.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://i.pinimg.com/originals/19/ec/78/19ec78e01191c93a418523cc003bcb09.png">
+                    <div class="layer">
+                        <h3>Graphic Designer</h3>
+                        <p>Graphic designers play an important role in following new trends and thus making attractive content.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://th.bing.com/th/id/OIP.5XrHIpeuYsQpcsubcgHpbAHaGT?pid=ImgDet&rs=1">
+                    <div class="layer">
+                        <h3>Databases/ Spreadsheets</h3>
+                        <p>Spreadsheets keep information electronically, which is more time efficient than sorting through mounds of paperwork to gather crucial bits of information</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> cholsholler@gmail.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-phone"></i> 0111881238</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/sholler.atem"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/CholSholler"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/chol_sholler/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chol-atem-deng-536a9329b/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://docs.google.com/document/d/1HRh3AHwZb0BtvyI8_R_PMYLeLuXQiKEQ/edit?rtpof=true" download="CV img" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Summit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169 Chol. made with <i class="fa-solid fa-heart" style="color: #ff004f;"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab_contents");
+
+        function Opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active_link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active_tab");
+            }
+            event.currentTarget.classList.add("active_link");
+            document.getElementById(tabname).classList.add("active_tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
